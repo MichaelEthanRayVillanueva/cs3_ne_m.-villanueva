@@ -6,7 +6,7 @@ cargo=0
 weight=0
 while cargo != "launch":
     cargo=input("What would you like to add to the ship? type either 'satellite', 'rover', or 'supplies'. If you're ready to take off, type 'launch'. ")
-    if cargo=="satelllite":
+    if cargo=="satellite":
         weight+=1000
         limiter=1000
     elif cargo=="rover":

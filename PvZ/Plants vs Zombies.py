@@ -59,6 +59,6 @@ while True:
     if zombie1.health<=0:
         print("Plants win!")
         break
-    elif plant1.health+plant2.health<=0:
+    elif plant1.health<=0 and plant2.health<=0:
         print("Zombies win!")
         break
